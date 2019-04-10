@@ -1,0 +1,12 @@
+apiVersion: xl-release/v1
+kind: Templates
+spec:
+  - name: deploy1
+    type: xldeploy.XLDeployServer
+    url: https://google.com
+---
+apiVersion: xl-release/v1
+kind: Templates
+spec:
+- template: test
+  description: my description
