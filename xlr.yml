@@ -9,4 +9,4 @@ apiVersion: xl-release/v1
 kind: Templates
 spec:
 - template: test
-  description: my description
+  description: my description update
